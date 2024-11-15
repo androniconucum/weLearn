@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1e;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+.saved-notes, .grouped-notes {
+    margin-bottom: 20px;
+}
+
+.saved-notes h3, .grouped-notes h3 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+button {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6a6a6a;
+}
+
+.main-content {
+    width: 50%;
+}
+
+.recents {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recents button {
+    margin: 10px;
+    width: 100px;
+}
+
+.search-section {
+    width: 20%;
+}
+
+.search-bar {
+    display: flex;
+}
+
+#searchInput {
+    width: 80%;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+#searchResults {
+    margin-top: 10px;
+}
+
+#searchResults li a {
+    color: #b3b3b3;
+}
